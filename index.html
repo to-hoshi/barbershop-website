@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ヘアーサロン西連地</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar navbar-dark bg-dark navbar-expand-lg">
+        <div class="container">
+            <a class="navbar-brand" href="#">ヘアーサロン西連地</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#shop-info">店舗情報</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#owner-info">オーナー情報</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">お問い合わせ</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    
+    <div class="container mt-4">
+        <section id="shop-info">
+            <h2>店舗情報</h2>
+            <p><strong>住所:</strong> ○○県○○市○○町1-2-3</p>
+            <p><strong>営業時間:</strong> 9:00 - 19:00</p>
+            <p><strong>店休日:</strong> 毎週月曜日</p>
+            <p><strong>電話番号:</strong> 012-3456-7890</p>
+        </section>
+        
+        <section id="owner-info" class="mt-4">
+            <h2>オーナー情報</h2>
+            <p>「お客様にリラックスしていただける空間を提供します。ぜひお気軽にお越しください！」</p>
+        </section>
+        
+        <section class="mt-4">
+            <h2>アクセス</h2>
+            <div class="ratio ratio-16x9">
+                <iframe src="https://www.google.com/maps/embed?pb=YOUR_EMBED_URL" allowfullscreen></iframe>
+            </div>
+        </section>
+        
+        <section id="contact" class="mt-4">
+            <h2>お問い合わせ</h2>
+            <form>
+                <div class="mb-3">
+                    <label for="name" class="form-label">お名前</label>
+                    <input type="text" class="form-control" id="name" required>
+                </div>
+                <div class="mb-3">
+                    <label for="email" class="form-label">メールアドレス</label>
+                    <input type="email" class="form-control" id="email" required>
+                </div>
+                <div class="mb-3">
+                    <label for="message" class="form-label">お問い合わせ内容</label>
+                    <textarea class="form-control" id="message" rows="4" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">送信</button>
+            </form>
+        </section>
+    </div>
+    
+    <footer class="bg-dark text-light text-center py-3 mt-4">
+        <p>&copy; 2025 ヘアーサロン西連地</p>
+    </footer>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
